@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To "
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/rale_regular"
+        android:paddingTop="30dp"
+        android:id="@+id/tv1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:text="asendas "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/rale_regular"
+
+        android:id="@+id/tv2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:text="we have the following properties"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/rale_regular"
+
+        android:id="@+id/tv3"
+        />
+
+
+
+
+<ru.dimorinny.floatingtextbutton.FloatingTextButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+app:floating_left_icon="@drawable/ic_building"
+    app:floating_title="Office"
+    android:layout_below="@+id/tv3"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/office"
+    >
+
+
+</ru.dimorinny.floatingtextbutton.FloatingTextButton>
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:floating_left_icon="@drawable/ic_factory"
+        android:layout_toRightOf="@+id/office"
+        app:floating_title="Factory"
+        android:layout_below="@+id/tv3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/factory"
+        >
+
+
+    </ru.dimorinny.floatingtextbutton.FloatingTextButton>
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:floating_left_icon="@drawable/ic_free_breakfast_black_24px"
+        app:floating_title="Shop"
+        android:layout_below="@+id/office"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/shop"
+        >
+
+
+    </ru.dimorinny.floatingtextbutton.FloatingTextButton>
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:floating_left_icon="@drawable/ic_laboratory"
+        app:floating_title="Lab"
+        android:layout_below="@+id/factory"
+        android:layout_toRightOf="@+id/shop"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/lab"
+        >
+
+
+    </ru.dimorinny.floatingtextbutton.FloatingTextButton>
+
+</RelativeLayout>
