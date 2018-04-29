@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/gradient_background"
+    >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/rale_regular"
+        android:paddingTop="20dp"
+        android:id="@+id/tv4"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:id="@+id/edName"
+android:text="John Smith"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/edName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:id="@+id/edAddress"
+android:text="43 Science Park Drive"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/edAddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvID"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:id="@+id/edID"
+android:text="S01234567A"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit Card"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/edID"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvCC"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvCC"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:id="@+id/edCC"
+android:text="1234 5678 9101"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CVN"
+        android:textSize="20dp"
+        android:textColor="#fff"
+android:layout_below="@+id/edCC"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvCVN"
+        />
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+       android:layout_below="@+id/tvCVN"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+android:id="@+id/edCVN"
+        android:background="#fff"
+android:text="123"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry"
+        android:textSize="20dp"
+        android:textColor="#fff"
+android:layout_toRightOf="@+id/tvCVN"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+android:layout_below="@+id/edCC"
+        android:id="@+id/tvExp"
+        />
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvExp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+android:layout_toRightOf="@+id/edCVN"
+        android:background="#fff"
+        android:id="@+id/edExpM"
+android:text="Jan"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvExp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/edExpM"
+        android:background="#fff"
+        android:id="@+id/edExpD"
+        android:focusedByDefault="true"
+android:text="25"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edExpD"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff"
+        android:id="@+id/btnRegister"
+        android:text="Register"
+
+        android:layout_marginBottom="30dp"
+        />
+        </RelativeLayout>
+
+
+</ScrollView>

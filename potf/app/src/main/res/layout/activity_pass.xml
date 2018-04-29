@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pass"
+    android:background="@drawable/gradient_background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pass"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/rale_regular"
+        android:paddingTop="20dp"
+        android:id="@+id/tv3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your location"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="20dp"
+        android:id="@+id/location"
+        android:layout_marginLeft="20dp"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="The Aries"
+
+    android:textSize="20dp"
+    android:layout_below="@+id/location"
+    android:layout_marginTop="20dp"
+    android:background="#fff"
+android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:id="@+id/aries"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit #01-02"
+
+        android:textSize="50dp"
+        android:layout_below="@+id/aries"
+
+        android:background="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/unit"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="Open"
+    android:layout_below="@+id/unit"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="80dp"
+    android:id="@+id/btnOpen"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/btnOpen"
+        android:layout_below="@+id/unit"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnClose"
+        />
+</RelativeLayout>
